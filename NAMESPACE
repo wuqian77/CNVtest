@@ -1,0 +1,3 @@
+useDynLib(CNVtest)
+export(GLMCNV, LRS, PickCNV_LRS, SetData, Simulation_LRS)
+importFrom("stats", "mad", "median", "rnorm", "sd")

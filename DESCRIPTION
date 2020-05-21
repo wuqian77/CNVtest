@@ -1,0 +1,11 @@
+Package: CNVtest
+Title: Identify Both Sample-Specific CNVs and Trait-Associated CNVs
+Version: 0.1.0
+Date: 2016-07-07
+Author: X. Jessie Jeng ; Vicky Qian Wu ; Hongzhe Li <hongzhe@upenn.edu>
+Maintainer: Vicky Qian Wu <wuqian7@gmail.com>
+Description: This package is developed to directly identify the copy number variants (CNVs) that are associated with outcome of interest, without the need of identifying sample-specific CNVs (e.g. GWAS). In addition, the optimal one-sample CNV identification procedure, Likelihood Ratio selection (LRS) method is also included. This package includes GLMCNV function, LRS function, how to simulate CNV data and application of LRS for CNV identification using SNP data.   
+License: GPL (>= 2 )
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.1.0
